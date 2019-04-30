@@ -3,6 +3,7 @@ Attendance using Face recognition
 
 ## Requirements
 Python 3.3+
+
 Node js with npm
 
 ## installation (windows)
@@ -27,6 +28,7 @@ copy all the files in the repository to your project folder
 
 ## Usage
 create a .xlsx file containing the names of the people who are to be recognized (file template provided in example folder)
+
 create a folder which contains images of the people. Note: filename of the image must match the name in .xlsx file. (Refer example folder)
 
 open command prompt in the project folder and run the following command
