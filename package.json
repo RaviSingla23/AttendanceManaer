@@ -1,0 +1,26 @@
+{
+  "name": "Attendence_Manager",
+  "version": "1.0.0",
+  "description": "Attendence_app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-win": "electron-packager . Attendence_manager --overwrite --asar --app-copyright=\"© 2018 Ravi Singla .All rights reserved.\" --platform=win32 --arch=x64 --icon=win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=RS --version-string.FileDescription=RS --version-string.ProductName=\"Attendence_Manager\""
+  },
+  "repository": "",
+  "keywords": [
+    "Face",
+    "recognition",
+    "Attendence",
+    "Manager",
+    "app"
+  ],
+  "author": "RaviSingla",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^3.0.2"
+  },
+  "dependencies": {
+    "electron-packager": "^12.2.0"
+  }
+}

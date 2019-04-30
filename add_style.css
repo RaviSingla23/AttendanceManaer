@@ -1,0 +1,105 @@
+body
+{
+    margin: 0px;
+    font-size: 22px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+#form
+{
+    margin-left:60px;
+    margin-top: 30px;
+}
+
+#submit
+{
+    margin-top:5px;
+}
+
+#submit a
+{
+    text-decoration: none;
+    color:white;
+    background-color: #F81B84;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-family: Calibri;
+    font-size: 22px;
+
+}
+
+#close
+{
+    margin-top: 9px;
+    margin-left:360px;
+}
+
+#close a
+{
+    text-decoration: none;
+    color:white;
+    background-color: #F81B84;
+    padding-left:18px;
+    padding-right:18px;
+    padding-top:8px;
+    padding-bottom:8px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+#select-directory, #select-file
+{
+    font-size: 20px;
+    font-family: Calibri;
+    background-color: #F81B84;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:6px;
+    padding-bottom:6px;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-top: 0px;
+    color: white;
+}
+
+#selected-directory , #selected-file
+{
+    font-size: 15px;
+    color:darkblue;
+}
+
+#ok
+{
+    text-decoration: none;
+    color:white;
+    background-color: #F81B84;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-size: 25px;
+    cursor: pointer;
+    position: fixed;
+    top: 200px;
+    left: 170px;
+    border-radius: 2px;
+}
+
+#adding
+{
+    text-align: center;
+    position: fixed;
+    top: 90px;
+    left: 130px;
+    font-size: 35px;
+}
+
+label
+{
+    margin-bottom: 10px;
+}
