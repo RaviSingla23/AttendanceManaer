@@ -42,8 +42,10 @@ First add a class then mark the attendance and then go to the homepage and click
 Add class
 <a href="https://imgflip.com/gif/2zvhj0"><img src="https://i.imgflip.com/2zvhj0.gif" title="made at imgflip.com"/></a>
 
+
 Mark
 <a href="https://imgflip.com/gif/2zvhkd"><img src="https://i.imgflip.com/2zvhkd.gif" title="made at imgflip.com"/></a>
+
 
 Show Results
 <a href="https://imgflip.com/gif/2zvhln"><img src="https://i.imgflip.com/2zvhln.gif" title="made at imgflip.com"/></a>
