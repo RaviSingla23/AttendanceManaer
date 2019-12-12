@@ -19,9 +19,9 @@ instal face recognition model
 pip install face_recognition
 ```
 
-Create a new folder for the project and open command prompt in that folder and install electron using following command
+Create a new folder for the project and open command prompt in that folder and install electron(install electron version 3.0.2) using following command
 ```
-npm install electron --save-dev
+npm install electron@3.0.2 --save-dev
 ```
 
 copy all the files in the repository to your project folder
