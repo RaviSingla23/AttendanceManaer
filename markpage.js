@@ -31,8 +31,8 @@ const mark = document.getElementById('mark');
 
 mark.addEventListener('click', (event) => {
 
-    var child = require('child_process').execFile;
-    var executablePath ='atten/mark.py';
+    var child = require('child_process').exec;
+    var executablePath ='python atten/mark.py' + ' ' + f;
 
     if(f==null)
     {
@@ -42,7 +42,7 @@ mark.addEventListener('click', (event) => {
 
     alert("Press q to close the camera")
 
-    child(executablePath,[f], function(err, stdout) {
+    child(executablePath, function(err, stdout) {
         
         if(err){
            alert(err);
