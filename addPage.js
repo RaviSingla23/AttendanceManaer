@@ -33,8 +33,8 @@ const submit = document.getElementById('submit')
 
 submit.addEventListener('click', (event) => {
   
-  var child = require('child_process').execFile;
-  var executablePath ='atten/addclass.py';
+  var child = require('child_process').exec;
+  var executablePath ='python atten/addclass.py' + ' ' + file + ' ' + dir;
 
   document.getElementById('form').remove()
   document.getElementById('close').remove()
@@ -44,7 +44,7 @@ submit.addEventListener('click', (event) => {
   pa.innerHTML="Adding Class";
   document.getElementById('body').appendChild(pa);
   
-  child(executablePath,[file,dir], function(err, stdout) {
+  child(executablePath, function(err, stdout) {
     if(err){
        alert(err);
        var ok = document.createElement('a');
