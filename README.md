@@ -50,3 +50,9 @@ First add a class then mark the attendance and then go to the homepage and click
 ### Show Results
 <a href="https://imgflip.com/gif/2zvhln"><img src="https://i.imgflip.com/2zvhln.gif" title="made at imgflip.com"/></a>
 
+## Pre- Built Windows APP
+A Windows App packaged using electon packager is available on the following link
+```
+https://drive.google.com/file/d/1wL2jk1ofDhThmYqzbsVq5kmlSt0w5aEO/view?usp=sharing
+```
+
